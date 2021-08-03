@@ -5,7 +5,7 @@ It includes four Jupyter notebooks.
 * makeModelSVHN.ipynb
 * makeModelTinyImageNet.ipynb
 * drawDiagram.ipynb
-
+a
 The "sampleModels" folder contains all the models used in the paper.
 
 ### makeModelCIFAR10.ipynb, makeModelSVHN.ipynb, makeModelTinyImageNet.ipynb
