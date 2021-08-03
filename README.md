@@ -36,9 +36,10 @@ This notebook has three parameters.<BR>
 
 The parameter of target group specifies the layers to calculate the persistent homology.<BR>
 It can be set to 1 or 2 for CIFAR10 and SVHN data sets, which correspond to the 1st and 2nd group in the paper, respectively.<BR>
-It can be set to 3 for Tiny ImageNet data set, which correspond to the 3rd group in the paper.<BR><BR> 
+It can be set to 3 for Tiny ImageNet data set, which corresponds to the 3rd group in the paper.<BR>
 
-The parameter of dropout ratio specifies the ratio used in the makeModelCIFAR10.ipynb, makeModelSVHN.ipynb, and makeModelTinyImageNet.ipynb.<BR><BR>
+The parameters of the dropout ratio and model directory are for specifing the target model.<BR>
+Set them to the trained model by the makeModel notebooks, or to the sample models in the "sampleModels" directory.
 
 # Sample
 
