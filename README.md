@@ -1,12 +1,14 @@
 # Overview
 This repository provides the source code and models used in the paper "Overfitting Measurement of Deep Neural Networks Using No Data" published in the 8th IEEE International Conference on Data Science and Advanced Analytics.<BR>
+This repository also provides them in the paper "Overfitting Measurement of Deep Neural Networks Using Trained Network weights", which is under review on International Journal of Data Science and Analytics, Springer.
+
 It includes four Jupyter notebooks. 
 * makeModelCIFAR10.ipynb
 * makeModelSVHN.ipynb
 * makeModelTinyImageNet.ipynb
 * drawDiagram.ipynb
 
-The "sampleModels" folder contains all the models used in the paper.
+The "sampleModels" and "additionalModels" folders contain all the models used in the paper.
 
 ### makeModelCIFAR10.ipynb, makeModelSVHN.ipynb, makeModelTinyImageNet.ipynb
 These notebooks train models on the CIFAR10, SVHN, and Tiny ImageNet data sets.<BR>
