@@ -56,7 +56,7 @@ This notebook has five parameters.<BR>
 
 The first three parameters are the sames in drawDiagram.ipynb notebook.<BR>
 The parameter of the original network size is for specifing the size of original network.<BR>
-The parameter of the target network size is for specifing the target network size for nomalization.<BR>
+The parameter of the target network size is for specifing the size of target network.<BR>
 
 # Sample
 
