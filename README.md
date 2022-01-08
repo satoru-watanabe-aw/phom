@@ -7,7 +7,7 @@ It includes five Jupyter notebooks.
 * makeModelSVHN.ipynb
 * makeModelTinyImageNet.ipynb
 * drawDiagram.ipynb
-* NPHOMdrawPHDiagram.ipynb
+* drawPHDiagramNPHOM.ipynb
 
 The "sampleModels" and "additionalModels" folders contain all the models used in the paper.
 
@@ -44,7 +44,7 @@ It can be set to 3 for Tiny ImageNet data set, which corresponds to the 3rd grou
 The parameters of the dropout ratio and model directory are for specifing the target model.<BR>
 Set them to the trained model by the makeModel notebooks, or to the sample models in the "sampleModels" directory.
 
-### NPHOMdrawDiagram.ipynb
+### drawDiagramNPHOM.ipynb
 
 This notebook calculates normalized PHOM (NPHOM) by reducing networks to target size.<BR>
 This notebook has five parameters.<BR>
