@@ -67,6 +67,6 @@ The drawDiagram.ipynb illustrates the PH diagrams of the trained models in the "
 ![tinyImagenet1000Dropout0 6-2-0-1](https://user-images.githubusercontent.com/61130343/127968734-08e08268-7fd2-4326-841d-0dfbe4ecd76d.png)
 
 ## additional models
-The additional models foler provides the trained models used in the paper. 
+The "additional models" foler provides the trained models used in the paper. 
 The drawDiagramNPHOM.ipynb calculates NPHOM and draws the PH diagrams.
 
