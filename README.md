@@ -2,11 +2,12 @@
 This repository provides the source code and models used in the paper "Overfitting Measurement of Deep Neural Networks Using No Data" published in the 8th IEEE International Conference on Data Science and Advanced Analytics.<BR>
 This repository also provides them in the paper "Overfitting Measurement of Deep Neural Networks Using Trained Network weights", which is under review on International Journal of Data Science and Analytics, Springer.
 
-It includes four Jupyter notebooks. 
+It includes five Jupyter notebooks. 
 * makeModelCIFAR10.ipynb
 * makeModelSVHN.ipynb
 * makeModelTinyImageNet.ipynb
 * drawDiagram.ipynb
+* NPHOMdrawPHDiagram.ipynb
 
 The "sampleModels" and "additionalModels" folders contain all the models used in the paper.
 
@@ -42,6 +43,19 @@ It can be set to 3 for Tiny ImageNet data set, which corresponds to the 3rd grou
 
 The parameters of the dropout ratio and model directory are for specifing the target model.<BR>
 Set them to the trained model by the makeModel notebooks, or to the sample models in the "sampleModels" directory.
+
+### NPHOMdrawDiagram.ipynb
+
+This notebook has three parameters.<BR>
+* target group
+* dropout ratio
+* model directory
+* original network size
+* target network size
+
+The parameter of the original network size is for setting the size of original network.
+The parameter of the target network size is for setting the target network size for nomalization.
+This notebook reduces the network size to the target size and draw PH diagram of the reduced network.
 
 # Sample
 
