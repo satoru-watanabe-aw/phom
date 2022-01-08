@@ -46,7 +46,7 @@ Set them to the trained model by the makeModel notebooks, or to the sample model
 
 ### NPHOMdrawDiagram.ipynb
 
-This notebook reduces the network size to the target size and draw PH diagram of the reduced network.<BR>
+This notebook calculates normalized PHOM (NPHOM) by reducing networks to target size.<BR>
 This notebook has five parameters.<BR>
 * target group
 * dropout ratio
@@ -54,7 +54,7 @@ This notebook has five parameters.<BR>
 * original network size
 * target network size
 
-The first three parameters specifies are same as drawDiagram.ipynb notebook.<BR>
+The first three parameters are the sames in drawDiagram.ipynb notebook.<BR>
 The parameter of the original network size is for specifing the size of original network.<BR>
 The parameter of the target network size is for specifing the target network size for nomalization.<BR>
 
